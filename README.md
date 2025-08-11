@@ -57,7 +57,3 @@ This project is designed to be **beginner-friendly** so learners can:
 This project is for **educational purposes** only.
 You are free to use, modify, and share it for learning.
 
-```
-
-If you want, I can also create a **sample screenshot.png** for the README so that your GitHub repo has a professional look when viewed. That way, people will instantly see the website design without needing to run it. Would you like me to prepare that?
-```
