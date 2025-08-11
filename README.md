@@ -17,7 +17,6 @@ This project was developed **for educational purposes** to teach:
 
 ## 📸 Preview
 ![Website Preview](screenshot.png)  
-*(Replace `screenshot.png` with your actual screenshot file in the repo)*
 
 ---
 
@@ -41,21 +40,6 @@ auto-flix-html-css-tutorial/
 
 ---
 
-## 🚀 How to View
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/auto-flix-html-css-tutorial.git
-````
-
-2. **Open the project folder**
-
-   ```bash
-   cd auto-flix-html-css-tutorial
-   ```
-3. **Open `index.html` in your browser**
-
----
-
 ## 🏫 Teaching Notes
 
 This project is designed to be **beginner-friendly** so learners can:
@@ -73,7 +57,3 @@ This project is designed to be **beginner-friendly** so learners can:
 This project is for **educational purposes** only.
 You are free to use, modify, and share it for learning.
 
-```
-
-If you want, I can also create a **sample screenshot.png** for the README so that your GitHub repo has a professional look when viewed. That way, people will instantly see the website design without needing to run it. Would you like me to prepare that?
-```
