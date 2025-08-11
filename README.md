@@ -40,21 +40,6 @@ auto-flix-html-css-tutorial/
 
 ---
 
-## 🚀 How to View
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/auto-flix-html-css-tutorial.git
-````
-
-2. **Open the project folder**
-
-   ```bash
-   cd auto-flix-html-css-tutorial
-   ```
-3. **Open `index.html` in your browser**
-
----
-
 ## 🏫 Teaching Notes
 
 This project is designed to be **beginner-friendly** so learners can:
