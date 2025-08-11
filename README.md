@@ -17,7 +17,6 @@ This project was developed **for educational purposes** to teach:
 
 ## 📸 Preview
 ![Website Preview](screenshot.png)  
-*(Replace `screenshot.png` with your actual screenshot file in the repo)*
 
 ---
 
