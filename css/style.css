@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: black;  
+    /* Navbar eke background coloreka */
+    padding: 1px; 
+    /* Navbar eke size eka. nawbar eke mada idan gattama udatath 1px thiyanawa, 
+    yatath 1px thiyenawa, wamen dakunen 1 px thiyenawa. */
+}
+
+.nav-links {
+    text-align: left;  
+    /* Nav links wam paththata alignment karanna */
+}
+
+.nav-links li {
+    display: inline; 
+    /* Navbar eke thiyena "Home, About Contact" kiyana item tika akama peliyata ganna meken */
+    margin-right: 20px; 
+    /* Navbar eke thiyena item tika athara paratharayak thiyanne oken.
+    Home idan 20px durin thamai about kiyana eka thiyenne */
+}
+
+.nav-links a {
+    color: white; 
+    /* Navbar eke thiyena link tike (akuru tika 'Home', 'About') pata danne mehema */
+    text-decoration: none; 
+    /* Navbar eke thiyena link tika underline karanna epa */
+}
+
+.home-section {
+    margin: 0;
+    padding: 0;
+    background-image: url('home-image.jpeg');
+    /* Home section eketa adala background image eka set karanne methanin. 
+    Oya danna awashaya background image eka css folder eka athulata danna. */
+    background-size: cover;
+    /* home section eka sampurnenma Background image eken cover karanne meken */
+    background-position: center;
+    /* Home section eke background image eka center ekata set karanne meken */
+    height: 500px;
+    /* Home section eke height eka 500px thiyenawa */ 
+}
+
+.home-content {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    /* Home section eke content tika center ekata alignment karanna meken */
+    text-align: center;
+    /* Home section eke content tika center ekata alignment karanne meken */
+    color: white;
+    /* Home section eke content tika pata danne mehema */
+}
+
+.home-content h1 {
+    font-size: 40px;
+    margin: 0;
+    /* Home section eke h1 tag eke akuru size eka 50px thiyenawa */
+}
+
+.home-content p {
+    font-size: 20px;
+    margin-top: 50px;
+    /* Home section eke p tag eke akuru size eka 20px thiyenawa */
+}
+
+.about-section {
+    padding: 50px 20px;
+    /* About section eke padding eka 50px thiyenawa.
+    Uda home section eke idan 50px ida thiyanna, wampatten 20px ida thiyanna(kiyala oken kiyanne)*/
+    text-align: center;
+    /* About section eke content (images tikai text tikai) tika center ekata alignment karanne meken */
+    font-family: Arial, Helvetica, sans-serif;
+    /* About section eke content tika Arial, Helvetica, sans-serif kiyana font eka use karala thiyenne */
+}
+
+.about-section h2{
+    font-size: 28px;
+    margin-bottom: 10px;    
+}
+
+.about-description {
+    margin: 0 auto 40px auto;
+    /* About section eke description tika center ekata alignment karanna meken */
+    max-width: 800px;
+    text-align: justify;
+    /* text tika justify (lassanata wam konai, dakunu konai kelin) karanne meken */
+}
+
+.about-boxes {
+    display: flex;
+    /*Image boxes tika eka peliyata ganne meken */
+    justify-content: center;
+    /* About section eke boxes tika center ekata alignment karanna meken */
+    gap: 20px;
+    /* About section eke boxes tika athara paratharayak thiyanne oken */
+}
+
+.about-box {
+    width: 250px;
+    border: 1px solid black;
+    /*about box tika wateta border ekak danne meken. 1px kiyanne border eke ganakama. */
+}
+
+.about-box img {
+    width: 100%;
+    /*image eka box eke with ekata 100% samana karanawa meken */
+    height: 150px;
+    /*Image eke usa hadanna puluwan meken */
+    object-fit: cover;
+    /*Image eka boxa eka athule api udin deepu size ekata ganata set karanawa meken */
+    display: block;
+    /* Image eka box eke athulata set karanna meken. Image eke ganata box eka set wenawa */
+}
+
+.about-box h3 {
+    margin-top: 10px;
+    /*H3 tag eka patan ganna kalin 10px idak thiyenawa */
+}
